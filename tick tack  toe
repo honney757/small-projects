@@ -1,0 +1,194 @@
+import os
+def display(block):
+    print(         "     |          |")
+    print(block[0],f"   |    {block[1]}     |   ",block[2])
+    print("----------------------")
+    print(         "     |          |")
+    print(block[3],f"   |    {block[4]}     |   ",block[5])
+    print("----------------------")
+    print(         "     |          |")
+    print(block[6],f"   |    {block[7]}     |   ",block[8])
+    print()
+    print()
+    
+def conditions(Block):
+    #for player 1
+    
+    if Block[0] == "O" and Block[1] == "O" and Block[2] == "O":
+            print("User 1 win")  
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()   
+    if Block[3] == "O" and Block[4] == "O" and Block[5] == "O":
+            print("User 1 win")
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()        
+    if Block[6] == "O" and Block[7] == "O" and Block[8] == "O":
+            print("User 1 win") 
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[0] == "O" and Block[3] == "O" and Block[6] == "O":
+            print("User 1 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[1] == "O" and Block[4] == "O" and Block[7] == "O":
+            print("User 1 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[8] == "O" and Block[5] == "O" and Block[2] == "O":
+            print("User 1 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[0] == "O" and Block[4] == "O" and Block[8] == "O":
+            print("User 1 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[6] == "O" and Block[4] == "O" and Block[2] == "O":
+            print("User 1 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    #for player 2
+    if Block[0] == "X" and Block[1] == "X" and Block[2] == "X":
+            print("User 2 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[3] == "X" and Block[4] == "X" and Block[5] == "X":
+            print("User 2 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[6] == "X" and Block[7] == "X" and Block[8] == "X":
+            print("User 2 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[0] == "X" and Block[3] == "X" and Block[6] == "X":
+            print("User 2 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[1] == "X" and Block[4] == "X" and Block[7] == "X":
+            print("User 2 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[8] == "X" and Block[5] == "X" and Block[2] == "X":
+            print("User 2 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[0] == "X" and Block[4] == "X" and Block[8] == "X":
+            print("User 2 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    if Block[6] == "X" and Block[4] == "X" and Block[2] == "X":
+            print("User 2 win")        
+            chose=input("if you restart the game  press Y")
+            if chose =="Y" or chose=="y":             
+              Block=["1","2","3","4","5","6","7","8","9"]   
+              os.system('cls')
+              restarts()               
+            else:  
+             exit()
+    
+              
+     
+    
+    
+    
+    
+        
+def restarts():   
+ choice=None
+ Mark="O"
+ user=1
+ Block=["1","2","3","4","5","6","7","8","9"]     
+ display(Block)    
+ while(True):
+    conditions(Block)
+    if user == 1:
+        choice=int(input(f"user {user} plz select from 1 to 9="))
+        choice=choice-1
+        user=0
+        Block[choice]=Mark
+        Mark="X"
+        display(Block)    
+    else:
+        choice=int(input(f"user {user} plz select from 1 to 9="))
+        choice=choice-1
+        user=1
+        Block[choice]=Mark
+        Mark="O"
+        display(Block)    
+        
+if __name__=="__main__":        
+ restarts()        
